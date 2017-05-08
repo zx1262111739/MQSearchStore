@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "92741547048A0DA27C4298EAACF0DB37C03BC98D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "732498C31F4F9A63B2B510C77CF1D1D37D2AD3CD" : 9223372036854775807,
+    "92741547048A0DA27C4298EAACF0DB37C03BC98D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DACF8246-9690-4384-8A38-88C88F28B481",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "732498C31F4F9A63B2B510C77CF1D1D37D2AD3CD" : "",
+    "92741547048A0DA27C4298EAACF0DB37C03BC98D" : "MQSearchStore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MQSearchStore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MQSearchStore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zx1262111739\/MQSearchStore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "732498C31F4F9A63B2B510C77CF1D1D37D2AD3CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zx1262111739\/MQSearchStore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92741547048A0DA27C4298EAACF0DB37C03BC98D"
+    }
+  ]
+}

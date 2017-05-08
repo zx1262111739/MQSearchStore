@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SearchTableViewController.h"
 
-#define ROWS 100000
+#define ROWS 6
 @interface ViewController ()
 
 @property (nonatomic, strong) UISearchController * searchController;
@@ -25,10 +25,11 @@
     char str[8] = {0};
     
     for (int i = 0; i < ROWS; i ++) {
-        for (int j = 0; j < 8; j ++) {
-            str[j] = arc4random() % 74 + 49;
-        }
-        [mArray addObject:[NSString stringWithFormat:@"%s", str]];
+//        for (int j = 0; j < 8; j ++) {
+//            str[j] = arc4random() % 74 + 49;
+//        }
+//        [mArray addObject:[NSString stringWithFormat:@"%s", str]];
+        [mArray addObject:[NSString stringWithFormat:@"qipu-%d", i + 1]];
     }
     self.dataArray = [mArray copy];
     SearchTableViewController * vc = [[SearchTableViewController alloc] init];

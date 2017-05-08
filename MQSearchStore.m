@@ -73,19 +73,19 @@
     
     NSMutableArray * results = [[NSMutableArray alloc] init];
     
-    NSInteger start = 0;
-    NSInteger end = self.dataStore.count - 1;
-    
     NSInteger searchLevel = MAX(0, (self.searchLevel - 1));
     NSInteger level = self.searchLevel;
     
 //    for (int i = 0 ; i < self.dataStore.count; i ++) {
 //        id obj = [self.dataStore objectAtIndex:i];
-//        if ((searchMark[start] >= searchLevel) && compare(searchContent, obj)) {
+//        if ((searchMark[i] >= searchLevel) && compare(searchContent, obj)) {
 //            [results addObject:obj];
 //            searchMark[i] = level;
 //        }
 //    }
+    
+    NSInteger start = 0;
+    NSInteger end = self.dataStore.count - 1;
     
     while (start <= end) {
         
@@ -96,7 +96,7 @@
         }
         start++;
         
-        if (start >= end) {
+        if (start > end) {
             break;
         }
         
