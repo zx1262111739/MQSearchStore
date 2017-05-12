@@ -25,11 +25,10 @@
     char str[8] = {0};
     
     for (int i = 0; i < ROWS; i ++) {
-//        for (int j = 0; j < 8; j ++) {
-//            str[j] = arc4random() % 74 + 49;
-//        }
-//        [mArray addObject:[NSString stringWithFormat:@"%s", str]];
-        [mArray addObject:[NSString stringWithFormat:@"qipu-%d", i + 1]];
+        for (int j = 0; j < 8; j ++) {
+            str[j] = arc4random() % 74 + 49;
+        }
+        [mArray addObject:[NSString stringWithFormat:@"%s", str]];
     }
     self.dataArray = [mArray copy];
     SearchTableViewController * vc = [[SearchTableViewController alloc] init];

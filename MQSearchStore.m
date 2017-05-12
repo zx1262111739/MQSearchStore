@@ -44,6 +44,7 @@
             searchMark = NULL;
         }
         searchMark = calloc(dataStore.count, sizeof(NSUInteger));
+        [self resetSearch];
     }
 }
 
