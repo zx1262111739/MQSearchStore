@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SearchTableViewController.h"
 
-#define ROWS 6
+#define ROWS 20
 @interface ViewController ()
 
 @property (nonatomic, strong) UISearchController * searchController;

@@ -19,6 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view insertSubview:[UIView new] atIndex:0];
+}
+- (void)dealloc {
+    
 }
 - (MQSearchStore *)searchStore {
     if (!_searchStore) {
